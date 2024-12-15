@@ -41,7 +41,7 @@ the following general procedure for contributing has been established:
        make a comment on the issue to inform the
        community of your intentions to begin work.
        Ideally, wait for confirmation that no one has started it.
-       However, if you are eager and do not get a prompt response, feel free to dive on in!
+       However, if you are eager and do not get a prompt response, feel free to dive in!
     4. Follow standard Github best practices:
         1. Fork the repo
         2. Branch from the HEAD of `development`(For core developers working within the tabi repo, to ensure a
@@ -91,7 +91,7 @@ and do all the work there.
 For instance, to create a fork and work on a branch of it, you would:
 
 1. Create the fork on github, using the fork button.
-2. Go to the original repo checked out locally. (i.e. `$GOPATH/src/github.com/tabilabs/tabi`)
+2. Go to the original repo and check out locally. (i.e. `$GOPATH/src/github.com/tabilabs/tabi`)
 3. `git remote rename origin upstream`
 4. `git remote add origin git@github.com:tharsis/tabi.git`
 
@@ -107,7 +107,7 @@ To pull in updates from the origin repo, run:
 
 New branch should be rebased before submitting a PR in case there have been changes to avoid merge commits.
 
-i.e. this branch state:
+i.e. this branch states:
 
 ```
           A---B---C new-branch
@@ -220,7 +220,7 @@ targeted against the release candidate branch.
 
 ### <span id="pull_requests">Pull Requests</span>
 
-To accommodate the review process, we suggest that PRs are categorically broken up. Ideally each PR addresses only a
+To accommodate the review process, we suggest that PRs be categorically broken up. Ideally each PR addresses only a
 single issue. Additionally, as much as possible code refactoring and cleanup should be submitted as separate PRs from
 bug fixes/feature-additions.
 
@@ -228,7 +228,7 @@ bug fixes/feature-additions.
 
 All PRs require two Reviews before merge. When reviewing PRs, please use the following review explanations:
 
-1. `LGTM` without an explicit approval means that the changes look good,
+1. `LGTM` without explicit approval means that the changes look good,
    but you haven't pulled down the code, ran tests locally and thoroughly reviewed it.
 2. `Approval` through the GH UI means that you understand the code,
    documentation/spec is updated in the right places,
